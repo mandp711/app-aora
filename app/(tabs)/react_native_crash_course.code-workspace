@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "react_native_crash_course",
+			"path": "../.."
+		},
+		{
+			"name": "assets",
+			"path": "../../../../Downloads/assets"
+		},
+		{
+			"name": "constants",
+			"path": "../../../../Downloads/constants"
+		}
+	],
+	"settings": {}
+}

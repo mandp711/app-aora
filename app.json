@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "react_native_crash_course",
-    "slug": "react_native_crash_course",
+    "name": "Aora",
+    "scheme": "aora",
+    "slug": "aora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -13,7 +13,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.jsm.Aora",
+      "bundleIdentifier": "com.mandp711.aora"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b9f632ae-74ce-4580-8892-1aab41188d52"
+      }
     }
   }
 }
